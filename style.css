@@ -53,7 +53,7 @@ img{
     height: 4.8rem;
 }
 .content{
-    background: url(ihttp://singaporewatchclub.com/site/wp-content/themes/singapore-watch-club/assets/images/pattern5.svg) center top/55rem auto no-repeat,url(http://singaporewatchclub.com/site/wp-content/themes/singapore-watch-club/assets/images/pattern6.svg) center bottom/68rem no-repeat;
+    background: url(http://singaporewatchclub.com/site/wp-content/themes/singapore-watch-club/assets/images/pattern5.svg) center top/55rem auto no-repeat,url(http://singaporewatchclub.com/site/wp-content/themes/singapore-watch-club/assets/images/pattern6.svg) center bottom/68rem no-repeat;
 }
 .pub{
     max-width: 55rem;
@@ -144,13 +144,33 @@ img{
     text-decoration: none;
 }
 .footer-content{
-padding: 2.5rem 0;
-background-color:  #183F5D;
-color: #fff;
-font-size: 0.63em;
+    padding: 2.5rem 0;
+    background-color:  #183F5D;
+    color: #fff;
+    font-size: 0.63em;
     font-family: "Proxima Nova", Arial, sans-serif;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin: 0;
-    
+
+}
+
+/* Reponsive */
+
+@media only screen and(min-width:641px){
+    html{
+        font-size: 1em;
+    }
+
+    .header{
+        padding-top: 2.5rem;
+    }
+
+    .menu-sm{
+        display: none;
+    }
+
+    .menu-lg{
+        display: block;
+    }
 }

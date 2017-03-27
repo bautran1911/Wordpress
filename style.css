@@ -49,3 +49,25 @@ img{
 .branding{
     height: 4.8rem;
 }
+.content{
+    background: url(ihttp://singaporewatchclub.com/site/wp-content/themes/singapore-watch-club/assets/images/pattern5.svg) center top/55rem auto no-repeat,url(http://singaporewatchclub.com/site/wp-content/themes/singapore-watch-club/assets/images/pattern6.svg) center bottom/68rem no-repeat;
+}
+.pub{
+    max-width: 55rem;
+    padding: 0 1.25em;
+    width: auto;
+    margin: 2.5em auto 0;
+}
+.h1-pub{
+    color: #B8976A;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    margin-bottom: 0;
+
+}
+.posts{
+    max-width: 55rem;
+    margin: 1.25em auto;    
+    padding: 0 1.25em;
+    width: auto;
+}

@@ -49,6 +49,27 @@ img{
 .header{
     z-index: 100;
 }
+.menu-lg{
+    background-color: #183F5D;
+}
+.ul-lg{
+    border-radius: 2px;
+    padding: 0;
+    margin: 0;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: .75em;
+    text-transform: uppercase;
+    line-height: 1.4;
+    display: inline-block
+}
+ul.ul-lg>li:first-child{
+    border-radius: 2px 0 0 2px;
+}
+.menu-item{
+    float: none;
+    display: inline-block;
+}
 .branding{
     height: 4.8rem;
 }
@@ -157,7 +178,7 @@ img{
 
 /* Reponsive */
 
-@media only screen and(min-width:641px){
+@media screen and (min-width:641px){
     html{
         font-size: 1em;
     }
@@ -170,7 +191,11 @@ img{
         display: none;
     }
 
-    .menu-lg{
+    .menu-lg.dn{
         display: block;
+    }
+    .branding{
+        width:6.3rem;
+        height: auto;
     }
 }

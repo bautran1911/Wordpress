@@ -28,6 +28,9 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
+a:hover{
+    outline: 0;
+}
 a:link{
     color: #1A4260;
 }
@@ -65,9 +68,89 @@ img{
     margin-bottom: 0;
 
 }
+.h1-pub::after{
+    content: '';
+    display: block;
+    margin-top: 1.5rem;
+    border-top: 1px solid #1A4260;
+    width: 3.125rem;
+}
 .posts{
     max-width: 55rem;
     margin: 1.25em auto;    
     padding: 0 1.25em;
     width: auto;
+}
+.post-1{
+    margin-left: -1.25em;
+    margin-bottom: 1.25em;
+}
+.post-1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.div-img{
+    padding-left: 1.25em;
+    float: left;
+    clear: none;
+    width: 100%;
+}
+.img-post{
+    min-height: 14rem;
+    width: 100%;
+    border: 3px solid #1A4260;
+    height: 16rem;
+    font-family: 'object-fit: cover;';    
+}
+.header-post{
+    padding-left: 1.25em;
+    float: left;
+    clear: none;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+}
+.time-post{
+    color: #B8976A;
+    font-size: .75em;
+    margin-bottom: 0.625em;
+    margin-top: 1.25em;
+}
+.h1-post{
+    font-size: 1.95rem;
+}
+.h1-post::after{
+    content: ' ';
+    display: block;
+    margin-top: 1.5rem;
+    border-top: 1px solid #1A4260;
+    width: 3.125rem;
+}
+.link-learnmore{
+    padding: 0.6rem 2.4rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 1px solid #B8976A;
+    color: #B8976A;
+    font-size: 0.63em;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 1.25em;    
+}
+.link-learnmore:hover{
+    color: #B8976A;
+    background-color: #fff;
+    text-decoration: none;
+}
+.footer-content{
+padding: 2.5rem 0;
+background-color:  #183F5D;
+color: #fff;
+font-size: 0.63em;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0;
+    
 }

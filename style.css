@@ -53,6 +53,7 @@ img{
     background-color: #183F5D;
 }
 .ul-lg{
+    height: 3.1rem;
     border-radius: 2px;
     padding: 0;
     margin: 0;
@@ -61,14 +62,46 @@ img{
     font-size: .75em;
     text-transform: uppercase;
     line-height: 1.4;
-    display: inline-block
+    display: inline-block;
+    color: #fff;
 }
 ul.ul-lg>li:first-child{
+    border-radius: 2px 0 0 2px;
+}
+ul.ul-lg>li:first-child a{
     border-radius: 2px 0 0 2px;
 }
 .menu-item{
     float: none;
     display: inline-block;
+    margin: 0;
+}
+li.menu-item>a{
+    color: inherit;
+    padding: 1rem 0.5rem;
+    overflow: hidden;
+    display: block;
+    line-height: 1.7;
+}
+li.menu-item>a.logo{
+    max-height: 3rem;
+    overflow: visible;
+    position: relative;
+    padding: 0;
+    margin-top: -1.5rem;
+}
+a.logo>h1{
+    color: inherit;
+}
+li.menu-item>a.forum{
+    border: 1px solid #B8976A;
+    padding: 0.4rem 0.8rem;
+    position: relative;
+}
+li.menu-item>a.forum:hover{
+    background: #fff;
+    color: #B8976A ;
+    text-decoration: none;
 }
 .branding{
     height: 4.8rem;

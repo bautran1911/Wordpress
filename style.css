@@ -89,7 +89,7 @@ li.menu-item>a.logo{
     overflow: visible;
     position: relative;
     padding: 0;
-    margin-top: -1.5rem;
+    margin-top: -2rem;
 }
 a.logo>h1{
     color: inherit;
@@ -270,7 +270,7 @@ li.menu-item>a>i{
         font-size: 1.05em;
     }
     .menu-item{
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 }
